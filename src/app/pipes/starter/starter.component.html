@@ -1,0 +1,21 @@
+
+<div class="text-layout">
+    <h1>{{nombre | titlecase}}</h1>
+    <h1>{{valor | number}}</h1>
+    <h1>{{obj | json}}</h1>
+
+    <button pButton type="button" label="Click" (click)="mostrarNombre(nombre)"  icon="pi pi-check" iconPos="right" ></button>
+</div>
+
+<div>
+    <p-card [header]="title | titlecase" [style]="{'width': '25rem', 'margin-bottom': '2em'}" [subheader]="subtitle">
+        <ng-template pTemplate="header">
+            <img alt="Card" src="https://st2.depositphotos.com/1763233/6596/i/600/depositphotos_65960421-stock-photo-underwater-photo-of-the-catfish.jpg">
+        </ng-template>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+            quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!</p>
+    </p-card>
+    
+</div>
+
+
