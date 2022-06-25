@@ -5,6 +5,7 @@ import {ButtonModule} from 'primeng/button';
 import{InputTextModule} from 'primeng/inputtext';
 import {CardModule} from "primeng/card";
 import {MenubarModule} from 'primeng/menubar';
+import {FieldsetModule} from 'primeng/fieldset';
 
 
 //Module only for export anohters modules. 
@@ -13,7 +14,8 @@ import {MenubarModule} from 'primeng/menubar';
     ButtonModule,
     InputTextModule,
     CardModule,
-    MenubarModule
+    MenubarModule,
+    FieldsetModule
   ]
 })
 export class PrimeModule { }

@@ -1,1 +1,27 @@
-<p>numbers works!</p>
+<div class="text-layout">
+    <h1>Pipes Numericos</h1>
+    <p>
+        Pipes incluidos en Angular en common Modulue.
+    </p>
+</div>
+
+<div class="p-grid">
+    <div class="p-col-4">
+        <p-card header="Ventas Netas" subheader="Ventas netas actuales">
+            <div class="pi pi-dollar">
+                {{ventasNetas | number:'1.2-2'}}
+            </div>
+        </p-card>
+    </div>
+    <div class="p-col-4">
+        <p-card header="Ventas Brutas" subheader="Ventas brutas actuales">
+                {{ventasNetas | currency:'DOP':'symbol-narrow':'.4-4'}}
+        </p-card>
+    </div>
+
+    <div class="p-col-4">
+        <p-card header="Ganacias Porcentual" subheader="Porcentaje de Ganacias">
+                {{ porcentaje | percent:'2.2-2'}}
+        </p-card>
+    </div>
+</div>

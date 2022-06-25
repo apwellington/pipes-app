@@ -10,6 +10,8 @@ export class BasicComponent  {
   nombreLower: string = 'wellington';
   nombreTitle: string = 'adames';
   nombreUpper: string = 'POZO';
+
+  fecha: Date = new Date();
   
 
 }
