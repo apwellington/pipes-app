@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 import {ButtonModule} from 'primeng/button';
 import{InputTextModule} from 'primeng/inputtext';
 import {CardModule} from "primeng/card";
 import {MenubarModule} from 'primeng/menubar';
 import {FieldsetModule} from 'primeng/fieldset';
+import {ToolbarModule} from 'primeng/toolbar';
+import {TableModule} from 'primeng/table';
+
 
 
 //Module only for export anohters modules. 
@@ -15,7 +17,10 @@ import {FieldsetModule} from 'primeng/fieldset';
     InputTextModule,
     CardModule,
     MenubarModule,
-    FieldsetModule
+    FieldsetModule,
+    ToolbarModule,
+    TableModule
+
   ]
 })
 export class PrimeModule { }
